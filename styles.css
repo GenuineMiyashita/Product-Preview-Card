@@ -1,7 +1,60 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Image Settings */
+
+#hero-image {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Text Settings */
+
+#hero-text {
+    text-align: left;
+    padding: 0 25px;
+}
+
+#hero-text h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 2.2rem;
+    line-height: 1.1;
+}
+
+#main-paragraph {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Settings */
 
 .attribution {
     font-size: 11px;
