@@ -12,7 +12,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;   
 }
 
 #hero-section {
@@ -121,17 +121,29 @@ body {
 
 /* Media Queries */
 
-@media (min-width: 480px) {
+@media (min-width: 768px) {
     .container {
         flex-direction: row;
+        margin: 100px;
     }
 
     #hero-section{
-        max-width: 25%;
+        max-width: 15%;
+        padding-left: 10px;
+        padding-right: 25px;
         border-radius: 0 10px 10px 0px;
+        
     }
     #hero-image {
-        max-width: 50%;
+        height: 475px;
+        content: url(images/image-product-desktop.jpg);
         border-radius: 10px 0 0 10px;
+    }
+}
+
+@media (min-width: 769px) {
+    #hero-section {
+        min-width: 275px;
+        height: 475px;
     }
 }
