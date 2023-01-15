@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Snapshot](./images/Final%20Product%20Card.png)
+![Snapshot](./images/updated-project-image.png)
 
 ### Links
 
@@ -45,12 +45,11 @@ I started with semantic HTML5 markup and ensuring that it passed through W3C's H
 
 ### What I learned
 
-My biggest take-away was handling the media queries and figuring out how to prevent the information from breaking inbetween breakpoints, primarly the text area. I learned
-that using min-width (aside from the media query) was the solution.
+My biggest take-away was handling the media queries and figuring out how to prevent the information from breaking inbetween breakpoints, primarly the text area. I learned that using min-width (aside from the media query) was the solution.
 
 ### Continued development
 
-I want to continue devlopment on HTML and CSS, but primarily responsive design and flexbox. I'm aiming to start incorporating Bootstrap and others in future projects.
+I want to continue development on HTML and CSS, but primarily responsive design and flexbox. I'm aiming to start incorporating Bootstrap and others in future projects.
 
 ## Author
 

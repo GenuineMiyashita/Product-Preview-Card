@@ -1,149 +1,151 @@
-html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* ********** */
+/* General Settings */
+/* ********** */
 
 body {
-    background-color: #f2ebe3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(#F5CAC3, #F28482);
     font-family: 'Montserrat', sans-serif;
 }
 
-.container {
+.sr-only {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1;
+    margin: 0 -1px -1px 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1;
+}
+
+#main-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;   
+    overflow: hidden;
+    max-width: 32.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0.25rem #6D6D6D
+}
+
+/* ********** */
+/* Product Settings */
+/* ********** */
+
+#hero-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #hero-section {
-    background-color: #ffffff;
-    border-radius: 0 0 10px 10px;
-}
-
-/* Image Settings */
-
-#hero-image {
-    max-width: 100%;
-    border-radius: 10px 10px 0 0;
-}
-
-/* Text Settings */
-
-#hero-text {
+    display: flex;
+    flex-direction: column;
+    background: #F7EDE2;
+    padding: 1.25rem;
     text-align: left;
-    padding: 10px 20px;
-    padding-bottom: 0;
 }
 
-#hero-text h1 {
+#product-category {
+    color: #55596C;
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    
+}
+
+#product-name {
     color: #1c232b;
     font-family: 'Fraunces', sans-serif;
-    font-size: 2.2rem;
-    margin: 0 auto;
+    font-size: 2rem;
+    padding-bottom: 1rem;
 }
 
-#main-paragraph {
-    color: #6c7289;
+#product-description {
+    color: #55596C;
     font-size: 1rem;
     line-height: 1.5rem;
+    padding-bottom: 1rem;
 }
 
-#category {
-    color: #6c7289;
-    font-size: 0.8rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 0.4rem;
-}
-
+/* ********** */
 /* Price Settings */
+/* ********** */
 
 #hero-price {
     display: flex;
     text-align: left;
-    padding: 0 20px;
 }
- 
 
-#discount-price {
-    color: #588157;
+.price {
+    display: flex;
+}
+
+#current-price {
+    color: #516D66;
     font-family: 'Fraunces', sans-serif;
     font-size: 2rem;
     font-weight: 700;
 }
 
-#normal-price {
-    align-self:center;
-    color: #6c7289;
+#original-price {
+    align-self: center;
+    color: #55596C;
     text-decoration: line-through;
-    padding-left: 15px;
+    padding-left: 1rem;
 }
 
+/* ********** */
 /* Button Settings */
+/* ********** */
 
-#hero-button {
+button {
     display: flex;
     justify-content: center;
-}
-
-.cart {
-    padding-right: 10px;
-}
-
-.button {
-    color: #ffffff;
+    width: 100%;
+    color: #fff;
     font-family: 'Fraunces', sans-serif;
     font-weight: 500;
     font-size: 1rem;
-    background-color: #588157;
+    background-color: #516D66;
     border: none;
-    border-radius: 5px;
-    width: 85%;
-    padding: 15px 0;
-    margin: 20px;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    margin-top: 0.75rem;
 }
 
-.button:hover {
+button:hover {
     cursor: pointer;
-    background: #3a5a40;
+    background: #48615B;
 }
 
-/* Footer Settings */
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
+button > img {
+    padding-right: 10px;
 }
 
-.attribution a {
-    color: #3e52a3;
-}
-
+/* ********** */
 /* Media Queries */
+/* ********** */
 
-@media (min-width: 768px) {
-    .container {
+@media (min-width: 33.5rem) {
+    #main-container {
         flex-direction: row;
-        margin: 100px;
     }
 
-    #hero-section{
-        max-width: 15%;
-        padding-left: 10px;
-        padding-right: 25px;
-        border-radius: 0 10px 10px 0px;
-        
-    }
     #hero-image {
-        height: 475px;
-        content: url(images/image-product-desktop.jpg);
-        border-radius: 10px 0 0 10px;
+        max-width: 100%;
+        min-width: 14.063rem;
     }
-}
 
-@media (min-width: 769px) {
     #hero-section {
-        min-width: 275px;
-        height: 475px;
+        padding: 1.75rem;
     }
 }
