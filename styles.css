@@ -127,14 +127,17 @@ button > img {
 @media (min-width: 33.5rem) {
     #main-container {
         flex-direction: row;
+        border-radius: 1rem;
     }
 
     #hero-image {
         max-width: 100%;
         min-width: 14.063rem;
+        border-radius: 1rem 0 0 1rem;
     }
 
     #hero-section {
         padding: 1.75rem;
+        border-radius: 0 1rem 1rem 0;
     }
 }
