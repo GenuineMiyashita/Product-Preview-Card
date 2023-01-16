@@ -1,6 +1,4 @@
-/* ********** */
 /* General Settings */
-/* ********** */
 
 body {
     display: flex;
@@ -33,9 +31,7 @@ body {
     box-shadow: 0 0 1rem 0.25rem #6D6D6D
 }
 
-/* ********** */
 /* Product Settings */
-/* ********** */
 
 #hero-image {
     display: block;
@@ -76,9 +72,7 @@ body {
     padding-bottom: 1rem;
 }
 
-/* ********** */
 /* Price Settings */
-/* ********** */
 
 #hero-price {
     display: flex;
@@ -103,9 +97,7 @@ body {
     padding-left: 1rem;
 }
 
-/* ********** */
 /* Button Settings */
-/* ********** */
 
 button {
     display: flex;
@@ -131,9 +123,7 @@ button > img {
     padding-right: 10px;
 }
 
-/* ********** */
 /* Media Queries */
-/* ********** */
 
 @media (min-width: 33.5rem) {
     #main-container {

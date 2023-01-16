@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Snapshot](./images/updated-project-image.png)
+![Snapshot](./images/product-screenshot.png)
 
 ### Links
 
