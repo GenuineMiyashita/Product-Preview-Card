@@ -7,7 +7,6 @@ picture {
     width: 90%;
 }
 
-
 .sr-only {
     border: 0;
     clip: rect(0 0 0 0);
@@ -71,13 +70,9 @@ picture {
 
 /* Price Settings */
 
-#hero-price {
+.hero-price {
     display: flex;
     text-align: left;
-}
-
-.price {
-    display: flex;
 }
 
 #current-price {
@@ -121,67 +116,3 @@ button > img {
 }
 
 /* Media Queries */
-
-
-
-/* @media (min-width: 720px) {
-    #main-container {
-        flex-direction: row;
-    }
-
-    #hero-image {
-        justify-content: flex-end;
-    }
-
-    #fragrance-bottle {
-        max-width: 27.4rem;
-        min-height: 20rem;
-        object-fit: cover;
-        border-radius: 1rem 0 0 1rem;
-    }
-
-    #hero-section {
-        max-width: 30rem;
-        border-radius: 0 1rem 1rem 0;
-    }
-}
- 
-/* @media (max-height: 390px) and (orientation: landscape) {
-    #main-container {
-        flex-direction: row;
-        max-width: 95%
-    }
-
-    #hero-image {
-        justify-content: flex-end;
-    }
-
-    #fragrance-bottle {
-        min-height: 22.6rem;
-        border-radius: 1rem 0 0 1rem;
-    }
-
-    #hero-section {
-        border-radius: 0 1rem 1rem 0;
-    }
-
-    #product-category {
-        font-size: 0.9rem;
-    }
-
-    #product-name {
-        font-size: 1.46rem;
-    }
-
-    #product-description {
-        font-size: 1rem;
-    }
-
-    #current-price {
-        font-size: 1.5rem;
-    }
-
-    #original-price {
-        font-size: 1rem;
-    }
-} */ */
