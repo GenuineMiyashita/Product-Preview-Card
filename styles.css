@@ -1,12 +1,7 @@
-/* General Settings */
-
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-image: linear-gradient(#F5CAC3, #F28482);
     font-family: 'Montserrat', sans-serif;
+    background-color: #516D66;
+    /* background-image: linear-gradient(#F5CAC3, #F28482); */
 }
 
 .sr-only {
@@ -24,27 +19,33 @@ body {
 #main-container {
     display: flex;
     flex-direction: column;
-    max-width: 32.5rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    box-shadow: 0 0 1rem 0.25rem #6D6D6D;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-/* Product Settings */
+/* Image Settings */
 
 #hero-image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#fragrance {
+    max-width: 90%;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+/* Hero Text Settings */
+
 #hero-section {
-    display: flex;
-    flex-direction: column;
-    background: #F7EDE2;
-    padding: 1.25rem;
+    width: 90%;
     text-align: left;
+    padding: 1.25rem;
+    border-radius: 0 0 1rem 1rem;
+    background: #F7EDE2;
 }
 
 #product-category {
@@ -124,7 +125,7 @@ button > img {
 
 /* Media Queries */
 
-@media (min-width: 33.5rem) {
+/* @media (min-width: 33.5rem) {
     #main-container {
         flex-direction: row;
         border-radius: 1rem;
@@ -140,4 +141,4 @@ button > img {
         padding: 1.75rem;
         border-radius: 0 1rem 1rem 0;
     }
-}
+} */
