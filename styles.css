@@ -1,10 +1,21 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-image: linear-gradient(#F5CAC3, #F28482);
 }
 
 picture {
-    width: 90%;
+    width: 20rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sr-only {
@@ -19,25 +30,20 @@ picture {
     width: 1;
 }
 
-#main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-}
-
 #hero-image {
     width: 100%;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
     border-radius: 1rem 1rem 0 0;
 }
 
 /* Hero Text Settings */
 
 #hero-section {
-    width: 90%;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 29rem;
     text-align: left;
     padding: 1.25rem;
     border-radius: 0 0 1rem 1rem;
@@ -50,22 +56,22 @@ picture {
     font-weight: 400;
     letter-spacing: 0.4rem;
     text-transform: uppercase;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     
 }
 
 #product-name {
     color: #1c232b;
     font-family: 'Fraunces', sans-serif;
-    font-size: 2rem;
-    margin: 1rem 0;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
 }
 
 #product-description {
     color: #55596C;
-   font-size: 1rem;
+    font-size: 1rem;
     line-height: 1.5rem;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 
 /* Price Settings */
@@ -78,7 +84,7 @@ picture {
 #current-price {
     color: #AF301F;
     font-family: 'Fraunces', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
